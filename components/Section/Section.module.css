@@ -1,0 +1,145 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100vw;
+  margin: 5rem 0;
+  color: white;
+}
+
+.Section .mainContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Section .textContent h2 {
+  font-family: 'Quicksand';
+  margin: 0.5rem 0;
+}
+
+.SectionReversed .mainContent {
+  flex-direction: row-reverse;
+}
+
+.SectionVerticalReversed .mainContent {
+  flex-direction: column-reverse;
+}
+
+.SectionVertical .mainContent {
+  flex-direction: column;
+}
+
+.SectionVertical .mainContent {
+  flex-direction: column-reverse;
+}
+
+.SectionVertical .imgContainer {
+  width: 90vw !important;
+  height: 50vh !important;
+}
+
+.SectionVertical .textContent {
+  max-width: 90vw !important;
+}
+
+.SectionVertical p {
+  max-width: 90vw !important;
+}
+
+.SectionVerticalReversed .imgContainer {
+  width: 90vw !important;
+  height: 50vh !important;
+}
+
+.SectionVerticalReversed .textContent {
+  max-width: 90vw !important;
+}
+
+.SectionVerticalReversed p {
+  max-width: 90vw !important;
+}
+
+.Section .sectionHeader {
+  text-align: center;
+  font-size: 2.2rem !important;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 90vw;
+  margin: 1rem auto;
+}
+
+.Section .textContent {
+  max-width: 50vw;
+}
+
+.Section .textOnly {
+  max-width: 90vw !important;
+}
+
+.Section .textOnly p {
+  max-width: 100% !important;
+}
+
+.Section .imgContainer {
+  position: relative;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section .imgContainer img {
+  object-fit: contain;
+  z-index: 1;
+}
+
+.Section p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  max-width: 45vw;
+}
+
+.Section .textContent div span {
+  font-size: 1.3rem !important;
+}
+
+@media screen and (max-width: 800px) {
+  .Section .mainContent {
+    flex-direction: column-reverse;
+  }
+
+  .Section .sectionHeader {
+    font-size: 1.8rem !important;
+  }
+
+  .Section .imgContainer {
+    width: 90vw !important;
+    max-height: 40vh;
+    margin: 0 auto !important;
+  }
+
+  .SectionVerticalReversed .imgContainer {
+    height: 20vh !important;
+  }
+  .Section h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2rem !important;
+    text-transform: uppercase;
+  }
+  .Section h1 {
+    text-align: center;
+    font-size: 1rem !important;
+  }
+  .Section .textContent {
+    max-width: 90vw;
+  }
+
+  .Section p {
+    max-width: unset;
+  }
+}
