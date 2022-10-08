@@ -49,7 +49,7 @@ const Section = ({
           <div
             className={styles.imgContainer}
           >
-            <Image src={imgSrc} layout="fill" priority={true} />
+            <Image src={imgSrc} layout="fill" priority={true} loading='eager' />
           </div>
         )}
       </div>
