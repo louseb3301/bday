@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     // const target = new Date("10/08/2022 23:59:59");
-    const target = new Date("10/08/2022 16:45:30");
+    const target = new Date("10/08/2022 16:55:30");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
         <p>PS: No getting drunk today 🙄</p>
       </Section>
       <Section imgSrc='/poem.jpg'>
-        <p>Last but not the least this poem. Nothing more can describe how I feel for you.</p>
+        <p>Last but not the least this poem. Nothing else can describe how I feel for you.</p>
       </Section>
     </>
   )
