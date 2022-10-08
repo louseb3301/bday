@@ -21,8 +21,8 @@ const Home: NextPage = () => {
   const Timer = useRef(null);
 
   useEffect(() => {
-    // const target = new Date("10/08/2022 23:59:59");
-    const target = new Date("10/08/2022 16:55:30");
+    const target = new Date("10/08/2022 23:59:59");
+    // const target = new Date("10/08/2022 16:55:30");
 
     const interval = setInterval(() => {
       const now = new Date();
